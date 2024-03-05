@@ -1,0 +1,458 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: arial;
+}
+
+.container{
+    background-color: rgba(99, 164, 248, 0.35);
+    padding: 2rem;
+    padding-bottom: 1000px;
+
+}
+
+.slider-wrapper{
+    position: relative;
+    max-width: 65rem;
+    margin: 0 auto;
+}
+
+.slider{
+    background-image: url(gallery/DSC_5674.JPG);
+    background-size: cover;
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 2rem;
+    animation: slider 141s infinite ease-in-out;
+}
+
+@keyframes slider {
+    0%{
+        background-image: url(gallery/DSC_5674.JPG);
+    }
+    1.06%{
+        background-image: url(gallery/DSC_5675.JPG);
+    }
+    2.12%{
+        background-image: url(gallery/DSC_5676.JPG);
+    }
+    3.18%{
+        background-image: url(gallery/DSC_5679.JPG);
+    }
+    4.24%{
+        background-image: url(gallery/DSC_5682.JPG);
+    }
+    5.30%{
+        background-image: url(gallery/DSC_5684.JPG);
+    }
+    6.36%{
+        background-image: url(gallery/DSC_5685.JPG);
+    }
+    7.42%{
+        background-image: url(gallery/DSC_5686.JPG);
+    }
+    8.48%{
+        background-image: url(gallery/DSC_5688.JPG);
+    }
+    9.54%{
+        background-image: url(gallery/DSC_5689.JPG);
+    }
+    10.6%{
+        background-image: url(gallery/DSC_5690.JPG);
+    }
+    11.66%{
+        background-image: url(gallery/DSC_5691.JPG);
+    }
+    12.72%{
+        background-image: url(gallery/DSC_5693.JPG);
+    }
+    13.78%{
+        background-image: url(gallery/DSC_5694.JPG);
+    }
+    14.84%{
+        background-image: url(gallery/DSC_5698.JPG);
+    }
+    15.9%{
+        background-image: url(gallery/DSC_5699.JPG);
+    }
+    16.96%{
+        background-image: url(gallery/DSC_5702.JPG);
+    }
+    18.02%{
+        background-image: url(gallery/DSC_5704.JPG);
+    }
+    19.08%{
+        background-image: url(gallery/DSC_5705.JPG);
+    }
+    20.14%{
+        background-image: url(gallery/DSC_5706.JPG);
+    }
+    21.20%{
+        background-image: url(gallery/DSC_5707.JPG);
+    }
+    22.26%{
+        background-image: url(gallery/DSC_5709.JPG);
+    }
+    23.32%{
+        background-image: url(gallery/DSC_5711.JPG);
+    }
+    24.38%{
+        background-image: url(gallery/DSC_5713.JPG);
+    }
+    25.44%{
+        background-image: url(gallery/DSC_5714.JPG);
+    }
+    26.5%{
+        background-image: url(gallery/DSC_5715.JPG);
+    }
+    27.56%{
+        background-image: url(gallery/DSC_5720.JPG);
+    }
+    28.62%{
+        background-image: url(gallery/DSC_5721.JPG);
+    }
+    29.68%{
+        background-image: url(gallery/DSC_5722.JPG);
+    }
+    30.74%{
+        background-image: url(gallery/DSC_5724.JPG);
+    }
+    31.8%{
+        background-image: url(gallery/DSC_5725.JPG);
+    }
+    32.86%{
+        background-image: url(gallery/DSC_5726.JPG);
+    }
+    33.92%{
+        background-image: url(gallery/DSC_5727.JPG);
+    }
+    34.98%{
+        background-image: url(gallery/DSC_5729.JPG);
+    }
+    36.04%{
+        background-image: url(gallery/DSC_5734.JPG);
+    }
+    37.1%{
+        background-image: url(gallery/DSC_5735.JPG);
+    }
+    38.16%{
+        background-image: url(gallery/DSC_5737.JPG);
+    }
+    39.22%{
+        background-image: url(gallery/DSC_5738.JPG);
+    }
+    40.28%{
+        background-image: url(gallery/DSC_5739.JPG);
+    }
+    41.34%{
+        background-image: url(gallery/DSC_5740.JPG);
+    }
+    42.400000000000006%{
+        background-image: url(gallery/DSC_5855.JPG);
+    }
+    43.46%{
+        background-image: url(gallery/DSC_5858.JPG);
+    }
+    44.52%{
+        background-image: url(gallery/DSC_5859.JPG);
+    }
+    45.580000000000005%{
+        background-image: url(gallery/DSC_5863.JPG);
+    }
+    46.64%{
+        background-image: url(gallery/DSC_5866.JPG);
+    }
+    47.7%{
+        background-image: url(gallery/DSC_5868.JPG);
+    }
+    48.760000000000005%{
+        background-image: url(gallery/DSC_5870.JPG);
+    }
+    49.82%{
+        background-image: url(gallery/DSC_5873.JPG);
+    }
+    50.88%{
+        background-image: url(gallery/DSC_5875.JPG);
+    }
+    51.940000000000005%{
+        background-image: url(gallery/DSC_5877.JPG);
+    }
+    53.0%{
+        background-image: url(gallery/DSC_5878.JPG);
+    }
+    54.06%{
+        background-image: url(gallery/DSC_5881.JPG);
+    }
+    55.120000000000005%{
+        background-image: url(gallery/DSC_5882.JPG);
+    }
+    56.18%{
+        background-image: url(gallery/DSC_5883.JPG);
+    }
+    57.24%{
+        background-image: url(gallery/DSC_5888.JPG);
+    }
+    58.300000000000004%{
+        background-image: url(gallery/DSC_5889.JPG);
+    }
+    59.36%{
+        background-image: url(gallery/DSC_5891.JPG);
+    }
+    60.42%{
+        background-image: url(gallery/DSC_5893.JPG);
+    }
+    61.480000000000004%{
+        background-image: url(gallery/DSC_5895.JPG);
+    }
+    62.540000000000006%{
+        background-image: url(gallery/DSC_5896.JPG);
+    }
+    63.6%{
+        background-image: url(gallery/DSC_5897.JPG);
+    }
+    64.66%{
+        background-image: url(gallery/DSC_5898.JPG);
+    }
+    65.72%{
+        background-image: url(gallery/DSC_5902.JPG);
+    }
+    66.78%{
+        background-image: url(gallery/DSC_5904.JPG);
+    }
+    67.84%{
+        background-image: url(gallery/DSC_5905.JPG);
+    }
+    68.9%{
+        background-image: url(gallery/DSC_5906.JPG);
+    }
+    69.96000000000001%{
+        background-image: url(gallery/DSC_5907.JPG);
+    }
+    71.02000000000001%{
+        background-image: url(gallery/DSC_5908.JPG);
+    }
+    72.08%{
+        background-image: url(gallery/DSC_5909.JPG);
+    }
+    73.14%{
+        background-image: url(gallery/DSC_5911.JPG);
+    }
+    74.2%{
+        background-image: url(gallery/DSC_5912.JPG);
+    }
+    75.26%{
+        background-image: url(gallery/DSC_5914.JPG);
+    }
+    76.32000000000001%{
+        background-image: url(gallery/DSC_5915.JPG);
+    }
+    77.38000000000001%{
+        background-image: url(gallery/DSC_5916.JPG);
+    }
+    78.44%{
+        background-image: url(gallery/DSC_5920.JPG);
+    }
+    79.5%{
+        background-image: url(gallery/DSC_5921.JPG);
+    }
+    80.56%{
+        background-image: url(gallery/DSC_5928.JPG);
+    }
+    81.62%{
+        background-image: url(gallery/DSC_5933.JPG);
+    }
+    82.68%{
+        background-image: url(gallery/DSC_5936.JPG);
+    }
+    83.74000000000001%{
+        background-image: url(gallery/DSC_5937.jpg);
+    }
+    84.80000000000001%{
+        background-image: url(gallery/DSC_5939.JPG);
+    }
+    85.86%{
+        background-image: url(gallery/DSC_5940.JPG);
+    }
+    86.92%{
+        background-image: url(gallery/DSC_5941.JPG);
+    }
+    87.98%{
+        background-image: url(gallery/DSC_5943.JPG);
+    }
+    89.04%{
+        background-image: url(gallery/DSC_5946.JPG);
+    }
+    90.10000000000001%{
+        background-image: url(gallery/DSC_5947.JPG);
+    }
+    91.16000000000001%{
+        background-image: url(gallery/DSC_5949.JPG);
+    }
+    92.22%{
+        background-image: url(gallery/DSC_5952.JPG);
+    }
+    93.28%{
+        background-image: url(gallery/DSC_5954.JPG);
+    }
+    94.34%{
+        background-image: url(gallery/DSC_5955.JPG);
+    }
+    95.4%{
+        background-image: url(gallery/DSC_5957.JPG);
+    }
+    96.46000000000001%{
+        background-image: url(gallery/DSC_5958.JPG);
+    }
+    97.52000000000001%{
+        background-image: url(gallery/DSC_5959.JPG);
+    }
+    98.58%{
+        background-image: url(gallery/DSC_5967.JPG);
+    }
+
+    
+}
+
+.gallery{
+    padding-top: 250px;
+}
+
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #fff;
+    opacity: 0.75;
+    border-radius: 100%;
+    transition: opacity ease 250ms;
+}
+
+.slider-nav a:hover{
+    opacity: 1;
+}
+
+.heading{
+    padding-top: 200px;
+    color: rgb(0, 23, 156);
+    font-size: 45px;
+    font-family: arial;
+    padding: 5px 0 50px 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.gal{
+    font-size: 50px;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+
+/* header style */
+
+header img{
+    width: 5%;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    /* padding-top: 10px; */
+    } 
+
+#acrologo{
+    width: 13%
+}
+
+#aictelogo{
+    width:4%;
+}
+
+header h1{
+    font-size: 75px;
+    font-family: arial;
+    padding: 30px;
+}
+
+header {
+    color: #fff;
+    height: 80px;
+    text-align: center;
+  }
+
+/* dropdown button */
+.dropbtn {
+    background-color: #04aa6d00;
+    color: #000c65;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffffe1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color:#000c6549;}
+
+/* navigation */
+nav {
+    text-align: center;
+    color:#000c65;
+    padding-bottom: 30px;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgba(99, 164, 248, 0.6));
+    border-radius: 25px;
+    width: 100%;
+
+  }
+  
+  .links * {
+    padding-left: 45px;
+    padding-right: 45px;
+    
+  }
+  
+  nav a {
+    color:#000c65;
+    text-decoration: none;
+    margin: 0 10px;
+    padding-bottom: 50px;
+  }
